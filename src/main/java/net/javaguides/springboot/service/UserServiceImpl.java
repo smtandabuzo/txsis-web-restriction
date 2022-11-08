@@ -14,18 +14,18 @@ import org.springframework.stereotype.Service;
 
 import net.javaguides.springboot.model.Role;
 import net.javaguides.springboot.model.User;
-import net.javaguides.springboot.repository.UserRepository;
+import net.javaguides.springboot.repository.UserRepositoryNormal;
 import net.javaguides.springboot.web.dto.UserRegistrationDto;
 
 @Service
 public class UserServiceImpl implements UserService{
 
-	private UserRepository userRepository;
+	private UserRepositoryNormal userRepository;
 	
 	@Autowired
 	private BCryptPasswordEncoder passwordEncoder;
 	
-	public UserServiceImpl(UserRepository userRepository) {
+	public UserServiceImpl(UserRepositoryNormal userRepository) {
 		super();
 		this.userRepository = userRepository;
 	}

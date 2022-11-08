@@ -1,4 +1,4 @@
-package net.javaguides.springboot.config;
+/*package net.javaguides.springboot.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -13,8 +13,8 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import net.javaguides.springboot.service.UserService;
 
-@Configuration
-@EnableWebSecurity
+//@Configuration
+//@EnableWebSecurity
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
 	@Autowired
@@ -59,4 +59,4 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 		.permitAll();
 	}
 
-}
+}*/
